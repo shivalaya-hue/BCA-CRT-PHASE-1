@@ -22,8 +22,12 @@ int main() {
     cin >> age;
     
     if(age >= 18) {
+        if(age>=50){
+           cout << "senior citizen eligible for Vote...";
+         } else{
         cout << "Eligible for Vote...";
-    } else {
+        }
+    }else {
         cout << "Not eligible for Vote...";
     }
     return 0;
